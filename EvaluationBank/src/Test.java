@@ -19,6 +19,8 @@ public class Test {
 			System.out.println("Connexion faite");
 			Statement statement = conn.createStatement();
 			
+			System.out.println("");
+			
 			//ResultSet result=statement.executeQuery("INSERT INTO T_Customers(Name,FirstName) VALUES ('Carre','jim');");
 			//ResultSet result=statement.executeQuery("DELETE from T_Customers where IdCust=6;");
 			 //ResultSet result=statement.executeQuery("UPDATE T_Customers SET Name= 'Laude'WHERE IdCust= 1;");
